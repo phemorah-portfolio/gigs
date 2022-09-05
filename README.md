@@ -18,8 +18,6 @@ such as:
 
 4. Policy filters (to allow a user to have a certain access privilege on the gig/listing bases on the level of allowed user/admin abilities) and much more...
 
-## Acknowledgements
-
 
 ## Authors
 - [@phemorah](https://www.github.com/phemorah)
@@ -67,7 +65,7 @@ Simply carry out the following steps to conveniently setup and run this project;
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
+- `API_KEY`
 
 - Visit mailtrap.io to login or create an account, and then update the following constants in your .env file:
     MAIL_HOST=smtp.mailtrap.io
@@ -75,8 +73,5 @@ To run this project, you will need to add the following environment variables to
     MAIL_USERNAME= get this from mailtrap.io
     MAIL_PASSWORD= get this from mailtrap.io
     MAIL_ENCRYPTION=tls
-## Documentation
 
-## Demo
-Insert gif or link to demo
 
