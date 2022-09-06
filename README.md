@@ -1,12 +1,13 @@
 
 # Laravel Job/Listing App
 
-A fully functioning job gigs site with laravel.
-I use migrations and factories to create and seed the database.
-The breeze package was installed and configure for authentication to developed
-both a landing page and an individual listing page
-with the help of blade components and tailwind css
-which enable end users to register, create listings to be displayed on the job board.
+ This project is a fully functioning job gigs site designed with Laravel. I use migrations and factories to create and seed the database.
+The breeze package was installed and configured for authentication to developed both a landing page and an individual listing page with the
+help of blade components and tailwind css which enable end users to register, create listings to be displayed on the job board. When Gigs are created
+or deleted, job notification is queued and an email alert is sent to an administrator.
+
+Laravel resource routing was used to assign the typical CRUD operations (create, read, update, and delete) to a controller with a single line of code
+Resource Routes. For implicit binding, i used Route Model Bindings to automatically inject the model instances directly into the routes.
 
 There is still a lot that we can add to improve this setup,
 such as:
